@@ -1,0 +1,51 @@
+.body {
+  margin: 0vw;
+}
+.container {
+  background-color: rgb(5, 5, 44);
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  align-items: center;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 2, 24);
+  border-radius: 1vh;
+  height: 30vw;
+  width: 20vw;
+}
+.textClass {
+  margin: 2vw;
+  height: 15vw;
+  width: 20vw;
+}
+
+.block img {
+  border-top-right-radius: 1vh;
+  border-top-left-radius: 1vh;
+  height: 15vw;
+  width: 20vw;
+}
+.name {
+  font-size: 1em;
+  color: white;
+}
+.profesion {
+  font-size: 0.7em;
+  color: white;
+}
+.Prevoisly {
+  font-size: 0.5em;
+  color: white;
+}
+#empty-block {
+  background-color: rgb(5, 5, 44);
+  border: 3px solid rgb(2, 2, 24);
+}
+
+.uber {
+  font-size: 2em;
+  color: white;
+}
