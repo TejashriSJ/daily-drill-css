@@ -50,17 +50,17 @@
 }
 .name {
   font-size: 1.5em;
-  color: rgb(230, 226, 226);
+  color: rgb(175, 174, 174);
 }
 .profesion {
   font-size: 1em;
   margin-top: -1vh;
-  color: white;
+  color: rgb(151, 150, 150);
 }
 .Prevoisly {
   font-size: 0.7em;
   margin-bottom: 3vh;
-  color: white;
+  color: rgb(151, 150, 150);
 }
 #empty-block {
   background-color: rgb(5, 5, 44);
