@@ -5,47 +5,88 @@
   background-color: rgb(5, 5, 44);
   display: flex;
   justify-content: space-around;
-  height: 60vh;
+  height: 50vh;
   align-items: center;
 }
-.block {
+.block1,
+.block2,
+.block3,
+.block4 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(2, 2, 24);
   border-radius: 1vh;
-  height: 30vw;
+  height: 30vh;
   width: 20vw;
 }
-.textClass {
-  margin: 2vw;
-  height: 15vw;
+.image1,
+.image2,
+.image3 {
+  height: 15vh;
   width: 20vw;
+  background-repeat: no-repeat;
+  background-size: 20vw, 30vh;
+  background-position: top -6vh right 0vw;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
 }
-
-.block img {
-  border-top-right-radius: 1vh;
-  border-top-left-radius: 1vh;
-  height: 15vw;
-  width: 20vw;
+.image1 {
+  background-image: url("./images/Jesse_Pinkman_S5B.png");
+}
+.image2 {
+  background-image: url("./images/Walter_White_S5B.png");
+}
+.image3 {
+  background-image: url("./images/Hank.jpeg");
+}
+.text {
+  height: 15vh;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .name {
-  font-size: 1em;
-  color: white;
+  font-size: 1.5em;
+  color: rgb(230, 226, 226);
 }
 .profesion {
-  font-size: 0.7em;
+  font-size: 1em;
+  margin-top: -1vh;
   color: white;
 }
 .Prevoisly {
-  font-size: 0.5em;
+  font-size: 0.7em;
+  margin-bottom: 3vh;
   color: white;
 }
 #empty-block {
   background-color: rgb(5, 5, 44);
   border: 3px solid rgb(2, 2, 24);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .uber {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
+  margin-top: -1vh;
+}
+#apple {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+.google {
+  width: 5vw;
+  height: 2vh;
+  margin-top: -1vh;
+}
+.plus {
+  font-size: 2em;
+  font-weight: bolder;
 }
