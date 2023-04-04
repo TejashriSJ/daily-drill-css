@@ -18,17 +18,17 @@
   align-items: center;
   background-color: rgb(2, 2, 24);
   border-radius: 1vh;
-  height: 30vh;
-  width: 20vw;
+  height: 40vh;
+  flex-basis: 20vw;
 }
 .image1,
 .image2,
 .image3 {
-  height: 15vh;
+  height: 20vh;
   width: 20vw;
   background-repeat: no-repeat;
-  background-size: 20vw, 30vh;
-  background-position: top -6vh right 0vw;
+  background-size: 20vw, 20vh;
+  background-position: top -10vh right 0vw;
   border-top-right-radius: 1vw;
   border-top-left-radius: 1vw;
 }
@@ -42,7 +42,7 @@
   background-image: url("./images/Hank.jpeg");
 }
 .text {
-  height: 15vh;
+  height: 20vh;
   width: 16vw;
   display: flex;
   flex-direction: column;
