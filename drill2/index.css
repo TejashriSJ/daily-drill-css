@@ -1,5 +1,6 @@
 body {
   margin: 0em;
+  background-color: black;
 }
 .container {
   display: flex;
@@ -7,8 +8,9 @@ body {
   align-items: center;
   background-color: rgb(53, 49, 78);
   height: auto;
-  flex-basis: content;
+  width: 60vw;
   margin-top: 20vh;
+  margin-left: 20vw;
 }
 .messageBlock {
   display: flex;
@@ -72,7 +74,7 @@ img {
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 1em;
   border: 1px solid rgb(212, 110, 119);
 }
@@ -80,4 +82,28 @@ img {
   background-color: rgb(60, 55, 90);
   color: rgb(163, 158, 158);
   font-size: small;
+  border: none;
+  align-self: flex-start;
+  border-radius: 1em;
+  padding-left: 0.7em;
+  padding-top: 0.5em;
+}
+#message-icon {
+  border-left: 1px solid rgb(212, 110, 119);
+  padding: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.7em;
+  background-color: rgb(50, 45, 80);
+  margin: 0em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+#cross-mark {
+  background-color: rgb(212, 110, 119);
+  padding: 0.7em;
+  border-radius: 1.5em;
+  margin-top: -2em;
+  margin-bottom: 3em;
+  align-self: center;
+  margin-left: 23em;
 }
