@@ -1,6 +1,10 @@
 body {
   margin: 0rem;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
 .container {
   background-color: rgb(216, 213, 213);
@@ -8,8 +12,6 @@ body {
   justify-content: space-around;
   height: 35rem;
   width: 50rem;
-  margin-left: 10rem;
-  margin-top: 2rem;
 }
 form {
   display: flex;
