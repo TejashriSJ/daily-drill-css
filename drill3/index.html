@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/70456f34ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>ADD TASK</h1>
+        <label for="company">Company</label>
+        <select id="company" name="company">
+          <option value="Adidas">Adidas</option>
+        </select>
+        <label for="priority">Priority</label>
+        <select id="priority" name="priority">
+          <option value="High">High</option>
+        </select>
+        <label for="task">Task</label>
+        <input id="task" type="text" name="task" />
+        <label for="tags">Tags</label>
+        <input id="tags" type="text" name="tags" />
+        <label for="people">No of People working</label>
+        <input type="text" id="people" />
+        <button>Add</button>
+      </form>
+      <div class="side-block">
+        <div class="top-block">
+          <img class="image" src="./images/bosh.png" alt="bosh logo" />
+          <div class="text">
+            <p class="priority">Priority</p>
+            <p class="task-name">Task Name</p>
+            <p><em>Development</em><em class="management">Management</em></p>
+          </div>
+          <p class="date">2 Apr 2023</p>
+        </div>
+        <div class="bottom-block">
+          <div>
+            <i class="fa-solid fa-user fa-sm" style="color: #838486"></i>
+            <p>3 people work on this</p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-message fa-sm" style="color: #6f7071"></i>
+            <p>8 comments</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
