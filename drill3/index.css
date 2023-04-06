@@ -25,7 +25,7 @@ form label {
 }
 form input,
 form select {
-  height: 1.5rem;
+  height: 1.7rem;
   border-radius: 0.3em;
 }
 form input {
@@ -91,7 +91,7 @@ img {
   font-weight: bold;
   color: rgb(82, 82, 128);
 }
-em {
+.text span {
   background-color: rgb(185, 185, 185);
   color: blue;
   font-size: small;
